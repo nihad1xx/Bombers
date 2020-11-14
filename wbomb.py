@@ -2,12 +2,7 @@ from selenium import webdriver
 import os
 from webdriver_manager.chrome import ChromeDriverManager #1st changer
 def banner():
-	print('''
-		  ##              ##  =======     ####       ####    ####     =======
-		  \ \    ####    / /  #      #  ##    ##    / /\ \  / /\ \    #      #
-		   \ \  / /\ \  / /   #======   ##    ##   / /  \ \/ /  \ \   #====== 
-		    \ \/ /  \ \/ /    #      #  ##    ##  / /    ####    \ \  #      #
-		     ####    ####     =======     ####    ##              ##  =======
+	print('''N İ H A D      G U R B A N L İ          ##  =======
 		''')
 def main():
 	driver = webdriver.Chrome(ChromeDriverManager().install()) #2nd change
